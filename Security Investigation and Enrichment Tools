@@ -1,0 +1,55 @@
+| Tool | Purpose |
+| [FortiGuard](https://www.fortiguard.com/) | Threat intelligence and reputation data for domains, URLs, IPs, and signatures. Good for quick plausibility checks. |
+| [Cisco Talos Intelligence](https://talosintelligence.com/) | Threat intelligence for IPs, domains, malware, and campaigns. Useful for IOC context and enrichment. |
+| [AlienVault OTX](https://otx.alienvault.com/) | Community-driven threat intelligence with pulses and IOC context. Good for quick IP, domain, and hash lookups. |
+| [ThreatBook](https://threatbook.io/) | CTI platform with IOC reputation and campaign information. |
+| [AbuseIPDB](https://www.abuseipdb.com/) | Crowdsourced abuse reports for IP addresses. Always validate with additional sources. |
+| [Spamhaus Reputation Checker](https://check.spamhaus.org/results/) | Checks whether an IP is listed on Spamhaus blocklists. |
+| [Microsoft Defender Threat Intelligence](https://ti.defender.microsoft.com/) | Microsoft threat intelligence portal for IOC enrichment and hunting. |
+
+## URL & Domain Analysis
+| Tool | Purpose |
+| [URLScan](https://urlscan.io/) | Browser-based URL scanning with screenshots, requests, certificates, and redirect chains. |
+| [URLVoid](https://www.urlvoid.com/) | Domain and URL reputation across multiple engines. |
+| [Host.io](https://host.io/) | Domain metadata, DNS data, and hosting information. |
+| [DNSlytics](https://dnslytics.com/) | Reverse IP, DNS, WHOIS, MX, NS, and subdomain analysis. |
+| [Whois.com](https://www.whois.com/whois/) | Domain and IP ownership information. |
+ 
+## IP Intelligence & Geolocation
+| Tool | Purpose |
+| [IPVoid](https://www.ipvoid.com/) | IP reputation, blacklist checks, and DNS analysis. |
+| [IPInfo](https://ipinfo.io/) | ASN, organization, geolocation, carrier, and privacy insights. |
+| [DB-IP](https://db-ip.com/) | IP geolocation and ASN data. |
+| [IPLocation](https://www.iplocation.net/) | Geolocation lookup using multiple providers. |
+| [Scamalytics](https://scamalytics.com/) | Fraud and scam signals with risk scoring. |
+| [IPQualityScore](https://www.ipqualityscore.com/vpn-ip-address-check) | Detects VPNs, proxies, Tor usage, and fraud indicators. |
+| [Netify](https://www.netify.ai/resources/ips/) | IP categorization and network intelligence. |
+| [AzureSpeed IP Lookup](https://www.azurespeed.com/Azure/IPLookup) | Identifies Azure-owned IPs and associated regions. |
+ 
+## DNS & Email Analysis
+| Tool | Purpose |
+| [MXToolbox](https://mxtoolbox.com/) | DNS, MX, SPF, DKIM, DMARC, and blacklist checks. Useful for email investigations. |
+
+## Microsoft Security & Azure
+| Tool | Purpose |
+| [Microsoft 365 Security Portal](https://security.microsoft.com/) | Central portal for Defender XDR, incidents, alerts, and hunting. |
+| [Microsoft Entra Admin Center](https://entra.microsoft.com/) | Identity, application, and conditional access administration. |
+| [Microsoft Online Error Lookup](https://login.microsoftonline.com/error) | Explains AADSTS and authentication-related errors. |
+| [Azure Built-in Roles](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles) | Reference for Azure RBAC roles and permissions. |
+| [MSPortals](https://msportals.io/) | Quick access to Microsoft portals and admin centers. |
+ 
+## Vulnerability & Supply Chain Security
+| Tool | Purpose |
+| [Tenable CVE](https://www.tenable.com/cve) | CVE database with CVSS scores and references. |
+| [Open Source Insights](https://deps.dev/) | Supply-chain and dependency risk analysis for open-source packages. |
+
+## Investigation Utilities
+| Tool | Purpose |
+| [WhatIsMyBrowser User-Agent Parser](https://developers.whatismybrowser.com/useragents/parse/) | Converts user agents into readable browser and device information. |
+| [UnixTimestamp](https://www.unixtimestamp.com/) | Epoch, UTC, and timezone conversions. |
+| [Luftlinie](https://www.luftlinie.org/) | Distance calculator useful for travel and geo-plausibility checks. |
+| [Apple Maps](https://maps.apple.com/) | Geographic lookups and location validation. |
+
+## OSINT
+| Tool | Purpose |
+| [LinkedIn Feed](https://www.linkedin.com/feed/) | Research organizations, personnel, and professional context during investigations. |
